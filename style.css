@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 1rem;
+}
+main section .top {
+  width: 100%;
+}
+main section .top img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main section .bottom {
+  background-color: #1e1e1e;
+  margin-top: 0.7rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+main section .bottom .f2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+main section .bottom .f2 h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+main section .bottom .f2 p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  opacity: 0.5;
+  line-height: 1.8;
+}
+main section .bottom .f2 button {
+  padding: 0.5rem;
+  width: 40%;
+  font-size: 0.9rem;
+  border-radius: 0.6rem;
+}
+
+@media (min-width: 900px) {
+  main section {
+    flex-direction: row;
+    padding: 1.5rem;
+  }
+  main section .top img {
+    width: 50vw;
+  }
+  main section .bottom {
+    margin-left: 1.4rem;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=style.css.map */
