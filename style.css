@@ -192,6 +192,154 @@ main .view4 .bottom > p {
   opacity: 0.9;
   font-size: 1.2rem;
 }
+main .view5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 1rem;
+}
+main .view5 .head {
+  padding-left: 1.5rem;
+}
+main .view5 .head h1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+main .view5 .person1 {
+  border-radius: 0.7rem;
+  margin-top: 1.4rem;
+  background-image: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbd7d003dfb6a1bdecb_team-01.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: space-between;
+}
+main .view5 .person1 .icons {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+main .view5 .person1 .icons i {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 9px;
+  border-radius: 50%;
+  background-color: rgba(72, 70, 70, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+main .view5 .person1 .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  margin: 10px;
+  border-radius: 0.3rem;
+  background-color: rgba(91, 85, 85, 0.34);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+main .view5 .person1 .title :nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding: 9px 6px;
+}
+main .view5 .person1 .title :nth-child(2) {
+  padding: 11px 6px;
+  font-size: 0.8rem;
+}
+main .view5 .person2 {
+  border-radius: 0.7rem;
+  margin-top: 1.4rem;
+  background-image: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbd2e12fa747e999689_team-02.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: space-between;
+}
+main .view5 .person2 .icons {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+main .view5 .person2 .icons i {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 9px;
+  border-radius: 50%;
+  background-color: rgba(72, 70, 70, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+main .view5 .person2 .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  margin: 10px;
+  border-radius: 0.3rem;
+  background-color: rgba(91, 85, 85, 0.34);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+main .view5 .person2 .title :nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding: 9px 6px;
+}
+main .view5 .person2 .title :nth-child(2) {
+  padding: 11px 6px;
+  font-size: 0.8rem;
+}
+main .view5 .person3 {
+  border-radius: 0.7rem;
+  margin-top: 1.4rem;
+  background-image: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbdc1f945f817bf4fd7_team-03.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: space-between;
+}
+main .view5 .person3 .icons {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+main .view5 .person3 .icons i {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 9px;
+  border-radius: 50%;
+  background-color: rgba(72, 70, 70, 0.377);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+main .view5 .person3 .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  margin: 10px;
+  border-radius: 0.3rem;
+  background-color: rgba(91, 85, 85, 0.34);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+main .view5 .person3 .title :nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding: 9px 6px;
+}
+main .view5 .person3 .title :nth-child(2) {
+  padding: 11px 6px;
+  font-size: 0.8rem;
+}
 
 @media (min-width: 900px) {
   main .view1 {
@@ -280,5 +428,13 @@ main .view4 .bottom > p {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+  }
+  main .view5 .head {
+    text-align: center;
+  }
+  main .view5 .cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
   }
 }/*# sourceMappingURL=style.css.map */
