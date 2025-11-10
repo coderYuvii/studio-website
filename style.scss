@@ -160,6 +160,7 @@ main{
     }
     .view4{
         @include flex(1rem);
+        flex-direction: column-reverse;
         margin-top: -20px;
         padding: 1rem;
         .top{
