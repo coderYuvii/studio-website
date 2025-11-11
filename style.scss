@@ -350,6 +350,101 @@ main{
           }  
         }
     }
+    .view6{
+        
+        @include flex();
+        padding: 1rem;
+        .top{
+            width: 100%;
+            
+            
+            img{
+                width: 100%;
+                border-radius: 0.5rem;
+
+            }
+        }
+        .bottom{
+            background-color: #1e1e1e;
+            margin-top: 0.7rem;
+            padding: 2rem;
+            @include flex(0.5rem);
+            border-radius: 0.5rem;
+
+            
+            
+            
+          
+            color: white;
+            .f1{
+                p{
+                    opacity: 0.7;
+                    font-weight: 100;
+                }
+            }
+          
+            .f2{
+                display: flex;
+                flex-direction: column;
+              gap: 3.5rem;
+              
+               
+               
+               
+                h1{
+                    font-size: 2.2rem;
+                    font-weight: lighter;
+                    opacity: 0.8;
+                    text-transform: uppercase;
+
+                }
+                button{
+                  
+                    padding: 0.5rem;
+                    width: 40%;
+                    font-size: 0.9rem;
+                    border-radius: 0.6rem;
+                }
+            }
+        }
+
+
+    }
+    }
+    .view7{
+        border-radius: 0.7rem;
+        background-color: #cebd63;
+        @include flex();
+        margin: 1rem;
+        padding: 1rem;
+        color: black;
+        .f1{
+            opacity: 0.8;
+            
+        }
+        .f2{
+            @include flex(1rem);
+            h1{
+                text-transform: uppercase;
+                font-size: 2.7rem;
+                font-weight: 100;
+                
+            }
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.2rem;
+                font-size: 1rem;
+                background-color: #121212;
+                color: white;
+                padding: 1rem 6rem;
+                border-radius: 0.5rem;
+            }
+        }
+
+        
+
     }
 
     
@@ -489,6 +584,59 @@ main{
             }
            
            
+        }
+        .view6{
+             flex-direction: row;
+            padding: 1.5rem;
+     
+
+            .top{
+               img{
+                width: 50vw;
+               }
+            }
+            .bottom{
+                
+                
+                margin-top: 0;
+             .f2{
+                @include flex(11rem);
+                
+
+                h1{
+                    font-size: 2.7rem;
+                }
+               
+             }
+                
+              
+            }
+          
+        }
+        .view7{
+            padding: 3rem;
+            .full{
+                @include flex(0.3rem);
+                .f2{
+                     display: flex;
+                     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+                    h1{
+                        font-size: 4.8rem;
+                        font-weight: 100;
+                    }
+                    button{
+                        padding: 0.7rem 3rem;
+                        font-size: 0.8rem;
+                        margin-top: 109px;
+                     
+                    }
+                }
+            }
+
+
         }
      
     }
